@@ -18,6 +18,6 @@ export const doGameLogic = (rules, startRound) => {
     }
   }
 
-  console.log(`Congratulations, ${name}`);
+  console.log(`Congratulations, ${name}!`);
 };
 export const getRandomNum = () => Math.floor(Math.random() * 51);
